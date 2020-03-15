@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFF;
+  color: #000;
+  font-size: 16px;
 }
 
 nav {
@@ -8,6 +9,30 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+a:link { color: #fff} /*unvisited*/
+a:hover { color: #000} /*mouse over*/
+a:active { text-decoration: underline;} /*selected*/
+
+figcaption {
+  font-size: .8em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .logo {
@@ -46,7 +71,16 @@ article {
   padding-top: 100px;
 }
 
+.author {
+  font-size: 1em;
+  font-style: italic;
+}
+
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+.story-text {
+  line-height: 1.3;
 }
